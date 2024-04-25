@@ -1,5 +1,4 @@
-const dom = {
-    parent: document.getElementById('parent'),
+export const dom = {
+    sectionCenter: document.querySelector('.section-center'),
+    btnContainer: document.querySelector('.btn-container'),
 };
-
-export default dom;
